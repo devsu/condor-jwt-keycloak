@@ -1,0 +1,53 @@
+{
+  "name": "condor-jwt-keycloak",
+  "version": "0.0.1",
+  "description": "Condor authentication Middleware using JWTs from keycloak",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover jasmine",
+    "posttest": "npm run lint && nsp check && istanbul check-coverage",
+    "lint": "eslint .",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsu/condor-jwt-keycloak.git"
+  },
+  "keywords": [
+    "condor",
+    "middleware",
+    "authentication",
+    "authorization",
+    "grpc",
+    "jwt",
+    "bearer",
+    "keycloak"
+  ],
+  "author": "Cesar Salazar @ Devsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devsu/condor-jwt-keycloak/issues"
+  },
+  "homepage": "https://github.com/devsu/condor-jwt-keycloak#readme",
+  "devDependencies": {
+    "condor-context-test-helper": "0.0.1",
+    "eslint": "^3.19.0",
+    "eslint-config-devsu-node": "0.0.3",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.6.0",
+    "jasmine-spy": "0.0.2",
+    "keypair": "^1.0.1",
+    "nock": "^9.0.13",
+    "nsp": "^2.6.3",
+    "pem-jwk": "^1.5.1",
+    "simple-bearer-token-test-helper": "0.0.6"
+  },
+  "dependencies": {
+    "condor-jwt": "^0.2.2",
+    "jsonwebtoken": "^7.4.0",
+    "pem-jwk": "^1.5.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  },
+  "peerDependencies": {}
+}
