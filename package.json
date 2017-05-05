@@ -43,8 +43,9 @@
     "simple-bearer-token-test-helper": "0.0.6"
   },
   "dependencies": {
-    "condor-jwt": "^0.2.2",
-    "jsonwebtoken": "^7.4.0",
+    "condor-jwt": "^0.3.1",
+    "jws": "^3.1.4",
+    "node-cache": "^4.1.1",
     "pem-jwk": "^1.5.1",
     "request": "^2.81.0",
     "request-promise": "^4.2.0"
