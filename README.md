@@ -52,12 +52,13 @@ const app = new Condor()
 
 Allows all the options as the [condor-jwt](https://github.com/devsu/condor-jwt) module. And also:
 
-| Option            | Description                                                                  | Default |
-|-------------------|------------------------------------------------------------------------------|---------|
-| url               | The authorization server URL. E.g. `http://localhost:8080/auth`. Required.   |         |
-| realm             | The realm name. E.g. `master`. Required unless `allowAnyRealm` is `true`.    |         |
-| allowAnyRealm     | Allow to authenticate against any realm in the authorization server.         | false   |
-| introspect        | Perform live validation using token instrospection.                          | false   |
+| Option                     | Description                                                                               | Default |
+|----------------------------|-------------------------------------------------------------------------------------------|---------|
+| url                        | The authorization server URL. E.g. `http://localhost:8080/auth`. Required.                |         |
+| realm                      | The realm name. E.g. `master`. Required unless `allowAnyRealm` is `true`.                 |         |
+| allowAnyRealm              | Allow to authenticate against any realm in the authorization server.                      | false   |
+| introspect                 | Perform live validation using token instrospection.                                       | false   |
+| minTimeBetweenJwksRequests | How many *milliseconds* should have elapsed before trying to get JWKs from keycloak again | 10000   |
 
 If `secretOrPublicKey` is provided, it will be used instead of retrieving the public key from keycloak. (Not recommended).
 
