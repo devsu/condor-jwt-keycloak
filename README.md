@@ -48,7 +48,7 @@ const app = new Condor()
 
 ## Options
 
-Allows all the options as the [condor-jwt](https://github.com/devsu/condor-jwt) module. And also:
+Allows all the options of the [condor-jwt](https://github.com/devsu/condor-jwt) module. And also:
 
 | Option                     | Description                                                                               | Default |
 |----------------------------|-------------------------------------------------------------------------------------------|---------|
