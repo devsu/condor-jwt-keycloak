@@ -1,6 +1,6 @@
 {
   "name": "condor-jwt-keycloak",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Condor authentication Middleware using JWTs from keycloak",
   "main": "index.js",
   "scripts": {
