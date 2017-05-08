@@ -31,6 +31,7 @@
   "homepage": "https://github.com/devsu/condor-jwt-keycloak#readme",
   "devDependencies": {
     "condor-context-test-helper": "0.0.1",
+    "coveralls": "^2.13.1",
     "eslint": "^3.19.0",
     "eslint-config-devsu-node": "0.0.3",
     "istanbul": "^0.4.5",
