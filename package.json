@@ -40,6 +40,7 @@
     "nock": "^9.0.13",
     "nsp": "^2.6.3",
     "pem-jwk": "^1.5.1",
+    "proxyquire": "^1.7.11",
     "simple-bearer-token-test-helper": "0.0.6"
   },
   "dependencies": {
