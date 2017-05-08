@@ -36,17 +36,14 @@
     "istanbul": "^0.4.5",
     "jasmine": "^2.6.0",
     "jasmine-spy": "0.0.2",
-    "keypair": "^1.0.1",
     "nock": "^9.0.13",
     "nsp": "^2.6.3",
-    "pem-jwk": "^1.5.1",
     "proxyquire": "^1.7.11",
     "simple-bearer-token-test-helper": "0.0.6"
   },
   "dependencies": {
     "condor-jwt": "^0.3.1",
     "jws": "^3.1.4",
-    "node-cache": "^4.1.1",
     "pem-jwk": "^1.5.1",
     "request": "^2.81.0",
     "request-promise": "^4.2.0"
